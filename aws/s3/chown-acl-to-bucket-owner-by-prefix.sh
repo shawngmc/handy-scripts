@@ -2,6 +2,7 @@
 
 if [ "$#" -ne 2 ]; then
     echo "Usage: ./chown-acl-to-bucket-owner-by-prefix.sh BUCKET_NAME PREFIX"
+    exit 1
 fi
 
 bucket=$1
